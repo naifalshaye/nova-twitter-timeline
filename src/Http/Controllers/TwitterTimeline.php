@@ -11,10 +11,10 @@ class TwitterTimeline extends Controller
     {
          require_once('TwitterAPIExchange.php');
          $settings = array(
-             'oauth_access_token' => config('services.nova_twitter_timeline.access_token'),
-             'oauth_access_token_secret' => config('services.nova_twitter_timeline.access_token_secret'),
              'consumer_key' => config('services.nova_twitter_timeline.consumer_key'),
-             'consumer_secret' => config('services.nova_twitter_timeline.consumer_key_secret')
+             'consumer_secret' => config('services.nova_twitter_timeline.consumer_key_secret'),
+             'oauth_access_token' => config('services.nova_twitter_timeline.access_token'),
+             'oauth_access_token_secret' => config('services.nova_twitter_timeline.access_token_secret')
          );
          $url = "https://api.twitter.com/1.1/statuses/".config('services.nova_twitter_timeline.timeline').".json";
          $twitter = new TwitterAPIExchange($settings);

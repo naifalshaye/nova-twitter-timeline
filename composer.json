@@ -1,10 +1,13 @@
 {
     "name": "naif/nova-twitter-timeline",
-    "description": "A Laravel Nova card.",
+    "description": "A Laravel Nova card that display the latest user timeline and mentions tweets",
     "keywords": [
         "laravel",
         "nova",
-        "twitter"
+        "twitter",
+        "tweets",
+        "mentions",
+        "timeline"
     ],
     "license": "MIT",
     "require": {
