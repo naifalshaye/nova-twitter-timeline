@@ -1,0 +1,30 @@
+{
+    "name": "naif/nova-twitter-timeline",
+    "description": "A Laravel Nova card.",
+    "keywords": [
+        "laravel",
+        "nova",
+        "twitter"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Naif\\NovaTwitterTimeline\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Naif\\NovaTwitterTimeline\\CardServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
