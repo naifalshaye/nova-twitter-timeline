@@ -1,5 +1,5 @@
 # Nova Twitter Timeline
-Add a card to Nova's dashboard that display the latest user timeline and mentions tweets
+Add a card to Nova dashboard that display the latest user timeline and mentions tweets
 
 ## Installation
 
@@ -10,9 +10,9 @@ composer require naif/nova-twitter-timeline
 ```
 
 ## Usage:
+Add the below to app/Providers/NovaServiceProvder.php
 
 ```php
-// in app/Providers/NovaServiceProvder.php
 
 public function card()
 {
@@ -23,8 +23,9 @@ public function card()
 ```
 Create a twitter app and obtain your API keys from https://developer.twitter.com
 
+Add the below to your /config/services.php
+
 ```php
-// add this to your /config/services.php
     'nova_twitter_timeline' => [
         'consumer_key' => env('TWITTER_CONSUMER_KEY', ''),
         'consumer_key_secret' => env('TWITTER_CONSUMER_SECRET', ''),
@@ -34,8 +35,10 @@ Create a twitter app and obtain your API keys from https://developer.twitter.com
         'tweets_count' => env('TWITTER_TWEETS_COUNT', ''),
     ],
 ```
+
+Add the below to your .env file
+
 ```php
-// add this to your .env file
 
 TWITTER_CONSUMER_KEY=###################################
 TWITTER_CONSUMER_SECRET=################################
