@@ -4,7 +4,7 @@ Nova.booting((Vue, router) => {
 
     Vue.filter('formatDate', function(value) {
         if (value) {
-            return moment(String(value)).format('hh:mm A')
+            return moment(String(value)).fromNow()
         }
     });
 })
