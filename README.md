@@ -48,6 +48,12 @@ TWITTER_TIMELINE=mentions_timeline // here you can set what timeline you whoul l
 TWITTER_TWEETS_COUNT=5 // here is the count of tweets you would like to retrieve Max: 200
 
 ```
+
+## Support:
+naif@naif.io
+
+https://www.linkedin.com/in/naif
+
 ## License
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
