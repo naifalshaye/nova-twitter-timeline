@@ -44,7 +44,7 @@ TWITTER_CONSUMER_KEY=###################################
 TWITTER_CONSUMER_SECRET=################################
 TWITTER_ACCESS_TOKEN=###################################
 TWITTER_ACCESS_TOKEN_SECRET=############################
-TWITTER_TIMELINE=mentions_timeline // here you can set what timeline you whoul like to retrieve (mentions_timeline OR user_timeline)
+TWITTER_TIMELINE=mentions_timeline // here you can set what timeline you would like to retrieve (mentions_timeline OR user_timeline)
 TWITTER_TWEETS_COUNT=5 // here is the count of tweets you would like to retrieve Max: 200
 
 ```
